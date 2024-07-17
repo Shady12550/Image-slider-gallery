@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body>
+    <h1>Image Slider</h1>
+    <!-- container -->
+    <div class="container">
+      <button class="pre lala">pre</button>
+      <div class="slider">
+        <div class="img-id">kawther</div>
+        <img class="active" src="./images/01.jpg" alt="1" />
+        <img src="./images/02.jpg" alt="2" />
+        <img src="./images/03.jpg" alt="3" />
+        <img src="./images/04.jpg" alt="4" />
+        <img src="./images/05.jpg" alt="5" />
+        <img src="./images/06.jpg" alt="6" />
+        <img src="./images/07.jpg" alt="7" />
+        <img src="./images/08.jpg" alt="8" />
+      </div>
+      <button class="next lala">next</button>
+    </div>
+    <!-- gallery -->
+    <!--  -->
+    <div class="gallery"></div>
+    <!-- Auto Change -->
+    <div class="auto-change">
+      <button class="stop-auto lala">Stop</button>
+      <div class="state"></div>
+      <button class="auto lala">Auto</button>
+    </div>
+    <div class="finally">
+      <div>Speed</div>
+      <input type="range" max="5" min="1" class="range" value="2" />
+    </div>
+    <!--  -->
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
